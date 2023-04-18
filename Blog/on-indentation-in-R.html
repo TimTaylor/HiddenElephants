@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content=
+"width=device-width, initial-scale=1.0">
+<style>
+    blockquote {margin: 1em 3em; color: #3d3b3b; border-left: 2px solid #999; padding-left: 1em;}
+    pre code {background-color: #eee; border: 1px solid #999; display: block; padding: 0.5em;}
+    body {max-width: 50em; margin: auto; margin-top: 1em; padding: 1em; line-height: 1.6; font-size: 17px; word-spacing: 0.1em;}
+    nav {border-bottom: 1px solid black;}
+    code {font-size: 0.85em; word-spacing: 0;}
+    .crumbs ol {list-style-type: none; padding-left: 0;}
+    .crumbtop {display: inline-block;}
+    .crumbtop a::after {display: inline-block; color: #000; content: '>'; font-size: 80%; font-weight: bold; padding: 0 3px;}
+    .crumbbottom {display: inline-block; border-right: 1px solid #ccc; padding: 0 1em;}
+</style>
+<title>On Indentation in R</title>
+</head>
+<body>
+<nav class="crumbs">
+<ol>
+<li class="crumbtop"><a href="/">Home</a></li>
+<li class="crumbtop"><a href="/Blog/">Blog</a></li>
+<li class="crumbtop"><time datetime=
+"2023-04-17">2023-04-17</time></li>
+</ol>
+</nav>
+<article>
+<h1>On Indentation in R</h1>
+<h2>A Small Plea 🙏</h2>
+<p>Coding style, like many other things in life, is highly
+subjective. What one individual likes can feel like chilli in the
+eyes for another. Such is life and it's important not to get hung up on these 
+things. That said, I'd like to make a small plea to a subset of the R
+community: <em>If you use 2 spaces for indentation, please please please trial
+using 4 or more spaces for your next piece of work</em>. You may prefer it and
+there's no harm done if not.</p>
+<h2>Why?</h2>
+<p>Until relatively recently (1 or 2 years at a guess) I followed
+the tidyverse <a href=
+"https://style.tidyverse.org/">
+style guide</a> (or more likely just kept the RStudio
+default settings) and used 2 spaces for indentation of my code. Whether it was
+due to my eyes getting poorer or simply spending more time working with other languages,
+I came to realise that it was hard to quickly parse R code with this little indentation.
+After trialling 4 spaces, and apologies in advance for the cliché,
+it was like a fog had lifted! My own code now feels less bunched up
+and easier to skim through. Similarly, when looking
+at others' codebases, I find it much easier to grok and orientate
+myself when they utilise more indentation.</p>
+<h3>It’s not just me</h3>
+<p>Whilst a muggle from the UK is unlikely to sway too many
+opinions, I’m not alone in thinking more spacing is better. The
+<a href=
+"https://cran.r-project.org/doc/manuals/R-ints.html#R-coding-standards">
+coding standards</a> of the R project itself say:</p>
+<blockquote>
+<p>The R Core Team recommends to use a basic indentation of 4 for R
+and C (and most likely also Perl) code …</p>
+</blockquote>
+<p>Roger Peng, who advocates for 8 spaces, <a href=
+"https://simplystatistics.org/posts/2018-07-27-why-i-indent-my-code-8-spaces/">
+wrote</a>:</p>
+<blockquote>
+<p>Personally, I’ve found 8 spaces is good for my aging eyes. I
+think my rule is that the appropriate number of spaces of
+indentation is proportional to the square of my age (I’m still
+working on that model though). At this point, code with a 2 space
+indent is indistinguishable from flush left.</p>
+</blockquote>
+<p>Linus Torvalds, in relation to C, <a href=
+"https://public-inbox.org/git/alpine.LFD.0.999.0710161722320.26902@woody.linux-foundation.org/">
+said</a>:</p>
+<blockquote>
+<p>In particular, a two-character indent (which hopefully nobody
+uses, but people are crazy) will be totally unreadable as a patch
+if you have the (fairly common, at least in UNIX projects) style of
+using spaces for less-than-eight-character-indents and tabs for the
+full 8 characters.</p>
+</blockquote>
+<h2>A final thought</h2>
+<p>Whilst I hope that a few people read this and subsequently
+change their setup, the reality is that defaults matter and RStudio
+defaults to 2 spaces for indentation. Unless one of their
+developers feels inclined to slip in a cheeky change,🙈 🙏, I suspect
+my eyes will continue to be tested!</p>
+</article>
+<nav class="crumbs" style=
+"border-top: 1px solid black; border-bottom: none; margin-top: 1em;">
+<ol>
+<li class="crumbbottom"><a href="../index.html">Home</a></li>
+<li class="crumbbottom">Blog</li>
+<li class="crumbbottom"><a href=
+"../Notes/index.html">Notes</a></li>
+<li class="crumbbottom"><a href=
+"../Software/index.html">Software</a></li>
+</ol>
+</nav>
+</body>
+</html>
