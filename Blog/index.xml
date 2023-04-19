@@ -2,12 +2,12 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
 
     <title>Hidden Elephants Blog</title>
-    <link rel="self" href="http://hiddenelephants.co.uk/Blog/index.xml"/>
+    <link rel="self" href="https://hiddenelephants.co.uk/Blog/index.xml"/>
     <updated>2023-04-19T21:01:06Z</updated>
     <author>
         <name>Tim Taylor</name>
     </author>
-    <id>http://hiddenelephants.co.uk/Blog/</id>
+    <id>https://hiddenelephants.co.uk/Blog/</id>
 
     <entry>
         <title>On Indentation in R</title>
