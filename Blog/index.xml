@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+
+    <title>Hidden Elephants Blog</title>
+    <link rel="self" href="http://hiddenelephants.co.uk/Blog/index.xml"/>
+    <updated>2023-04-19T21:01:06Z</updated>
+    <author>
+        <name>Tim Taylor</name>
+    </author>
+    <id>http://hiddenelephants.co.uk/Blog/</id>
+
+    <entry>
+        <title>On Indentation in R</title>
+        <link href="https://www.hiddenelephants.co.uk/Blog/on-indentation-in-R.html" />
+        <id>https://www.hiddenelephants.co.uk/Blog/on-indentation-in-R.html</id>
+        <updated>2023-04-18T21:57:58Z</updated>
+        <content type="html">
+            &lt;h1&gt;On Indentation in R&lt;/h1&gt;
+            &lt;h2&gt;A Small Plea 🙏&lt;/h2&gt;
+            &lt;p&gt;Coding style, like many other things in life, is highly
+            subjective. What one individual likes can feel like chilli in the
+            eyes for another. Such is life and it's important not to get hung
+            up on these things. That said, I'd like to make a small plea to a
+            subset of the R community: &lt;em&gt;If you use 2 spaces for indentation,
+            please please please trial using 4 or more spaces for your next
+            piece of work&lt;/em&gt;. You may prefer it and there's no harm done if
+            not.&lt;/p&gt;
+            &lt;h2&gt;Why?&lt;/h2&gt;
+            &lt;p&gt;Until relatively recently (1 or 2 years at a guess) I followed
+            the tidyverse &lt;a href="https://style.tidyverse.org/"&gt;style
+            guide&lt;/a&gt; (or more likely just kept the RStudio default settings)
+            and used 2 spaces for indentation of my code. Whether it was due to
+            my eyes getting poorer or simply spending more time working with
+            other languages, I came to realise that it was hard to quickly
+            parse R code with this little indentation. After trialling 4
+            spaces, and apologies in advance for the cliché, it was like a fog
+            had lifted! My own code now feels less bunched up and easier to
+            skim through. Similarly, when looking at others' codebases, I find
+            it much easier to grok and orientate myself when they utilise more
+            indentation.&lt;/p&gt;
+            &lt;h3&gt;It’s not just me&lt;/h3&gt;
+            &lt;p&gt;Whilst a muggle from the UK is unlikely to sway too many
+            opinions, I’m not alone in thinking more spacing is better. The
+            &lt;a href=
+            "https://cran.r-project.org/doc/manuals/R-ints.html#R-coding-standards"&gt;
+            coding standards&lt;/a&gt; of the R project itself say:&lt;/p&gt;
+            &lt;blockquote&gt;
+            &lt;p&gt;The R Core Team recommends to use a basic indentation of 4 for R
+            and C (and most likely also Perl) code …&lt;/p&gt;
+            &lt;/blockquote&gt;
+            &lt;p&gt;Roger Peng, who advocates for 8 spaces, &lt;a href=
+            "https://simplystatistics.org/posts/2018-07-27-why-i-indent-my-code-8-spaces/"&gt;
+            wrote&lt;/a&gt;:&lt;/p&gt;
+            &lt;blockquote&gt;
+            &lt;p&gt;Personally, I’ve found 8 spaces is good for my aging eyes. I
+            think my rule is that the appropriate number of spaces of
+            indentation is proportional to the square of my age (I’m still
+            working on that model though). At this point, code with a 2 space
+            indent is indistinguishable from flush left.&lt;/p&gt;
+            &lt;/blockquote&gt;
+            &lt;p&gt;Linus Torvalds, in relation to C, &lt;a href=
+            "https://public-inbox.org/git/alpine.LFD.0.999.0710161722320.26902@woody.linux-foundation.org/"&gt;
+            said&lt;/a&gt;:&lt;/p&gt;
+            &lt;blockquote&gt;
+            &lt;p&gt;In particular, a two-character indent (which hopefully nobody
+            uses, but people are crazy) will be totally unreadable as a patch
+            if you have the (fairly common, at least in UNIX projects) style of
+            using spaces for less-than-eight-character-indents and tabs for the
+            full 8 characters.&lt;/p&gt;
+            &lt;/blockquote&gt;
+            &lt;h2&gt;A final thought&lt;/h2&gt;
+            &lt;p&gt;Whilst I hope that a few people read this and subsequently
+            change their setup, the reality is that defaults matter and RStudio
+            defaults to 2 spaces for indentation. Unless one of their
+            developers feels inclined to slip in a cheeky change,🙈 🙏, I suspect
+            my eyes will continue to be tested!&lt;/p&gt;
+
+        </content>
+    </entry>
+
+</feed>
